@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Swagger\" />
+    <None Remove="Swashbuckle.AspNetCore.SwaggerGen" />
+    <None Remove="Microsoft.OpenApi" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Versioning" />
+    <None Remove="BusinessValidation\" />
+    <None Remove="BusinessValidation\Models\" />
+    <None Remove="BusinessValidation\Models\Interfaces\" />
+    <None Remove="BusinessValidation\Extension\" />
+    <None Remove="BusinessValidation\Exception\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Core" />
+    <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="Microsoft.Extensions.Configuration.Abstractions" />
+    <None Remove="Microsoft.Extensions.Configuration.Binder" />
+    <None Remove="Microsoft.Extensions.DependencyInjection" />
+    <None Remove="Swashbuckle.AspNetCore.SwaggerUI" />
+    <None Remove="Swashbuckle.AspNetCore.Annotations" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Swagger\" />
+    <Folder Include="BusinessValidation\" />
+    <Folder Include="BusinessValidation\Models\" />
+    <Folder Include="BusinessValidation\Models\Interfaces\" />
+    <Folder Include="BusinessValidation\Extension\" />
+    <Folder Include="BusinessValidation\Exception\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.OpenApi" Version="1.4.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.10" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.10" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.30" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
+  </ItemGroup>
+</Project>
